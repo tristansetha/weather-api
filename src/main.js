@@ -21,7 +21,7 @@ $(document).ready(function() {
 //       $('#location').val("");
 //
 //       let request = new XMLHttpRequest();
-//       const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=982ab0a2656419ff4bb629ae52805f3c`;
+//       const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`).;
 //
 //       request.onreadystatechange = function() {
 //         if (this.readyState === 4 && this.status === 200) {
